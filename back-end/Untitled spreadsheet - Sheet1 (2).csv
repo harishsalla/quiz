@@ -1,0 +1,15 @@
+QUESTION,CODE,QUESTION_TYPE
+"what will be the
+ out put for this 
+code.?
+","function factorial(num) {if (num === 0 || num === 1) {return 1;} else {return num * factorial(num - 1);}}const number = 5;
+const result = factorial(number);console.log(`The factorial of ${number} is: ${result}`);",JAVASCRIPT
+"what will be the
+ out put for this 
+code.?","def is_even(number):return number % 2 == 0 num = 6 print(f""Is {num} 
+even? {is_even(num)}"")",PYTHON
+"what will be the
+ out put for this 
+code.?","#include <stdio.h> int is_even(int number) {return number % 2 == 0;}
+int main() {int num = 6;printf(""Is %d even? %s\n"", num, is_even(num) ?
+ ""Yes"" : ""No"");return 0}",C

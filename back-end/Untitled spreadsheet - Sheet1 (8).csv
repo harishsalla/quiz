@@ -1,0 +1,205 @@
+QUESTION,CODE,QUESTION_TYPE,DESCRIPTION,FIRST_OPTION,SECOND_OPTION
+"Given java script code
+what will be the out put 
+for the given code?","function factorial(num) {if (num === 0 || num === 1) {return 1;} else {return num * factorial(num - 1);}}const number = 5;
+const result = factorial(number);console.log(`The factorial of ${number} is: ${result}`);",JAVASCRIPT,"is the below code
+is correct option 
+for the above one","function getRandomNumber
+(min, max) {
+  return Math.floor(Math.
+random() *
+ (max - min + 1)) + min;
+}
+
+// Generate a random number 
+between 1 and 100
+const randomNumber =
+ getRandomNumber(1, 100);
+console.log('Random Number:', randomNumber);
+",
+"what will be the
+ out put for this 
+code.?","def is_even(number):return number % 2 == 0 num = 6 print(f""Is {num} 
+even? {is_even(num)}"")",PYTHON,,,
+"what will be the
+ out put for this 
+code.?","#include <stdio.h> int is_even(int number) {return number % 2 == 0;}
+int main() {int num = 6;printf(""Is %d even? %s\n"", num, is_even(num) ?
+ ""Yes"" : ""No"");return 0}",C,,,
+"Given HTML code
+what will be the out put 
+for the given code? ","<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample HTML Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Page</h1>
+        <nav>
+            <ul> <li><a href=""#home"">Home</a></li><li><a href=""#about"">About</a></li>
+                <li><a href=""#services"">Services</a></li>
+                <li><a href=""#contact"">Contact</a></li>
+            </ul>
+        </nav>
+    </header> <main>
+        <section id=""home""> <h2>Home Section</h2>
+            <p>Welcome to the home section of this page.</p>
+        </section>
+
+        <section id=""about"">
+            <h2>About Section</h2>
+            <p>This is where you can learn about us.</p>
+        </section>
+
+        <section id=""services"">
+            <h2>Services Section</h2>
+            <p>Discover the services we offer.</p>
+        </section>
+
+        <section id=""contact"">
+            <h2>Contact Section</h2>
+            <p>Reach out to us through the contact details provided.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Website</p>
+    </footer>
+</body>
+</html>
+",HTML,"is the below code
+is correct option 
+for the above one","<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a simple HTML example.</p>
+    <img src=""https://via.placeholder.com/150"" alt=""Placeholder Image"">
+</body>
+</html>
+",
+"Given CSS code what 
+will be displayed on 
+computer screen..?
+","/* Comments in CSS start with '/*' and end with '*/' */
+
+/* Styles for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for headings */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Styles for a navigation bar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+/* Styles for links in the navigation bar */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+",CSS,"below codes are valid 
+for the above options?","/* CSS code */
+.container {
+  width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.text {
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}","/* CSS code */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}"
+"what will the out put of
+the following code..?","trigger SetDefaultAccountType on Account (before insert) {
+    for(Account acc : Trigger.new) {
+        if(acc.Type == null) {
+            acc.Type = 'Prospect';
+        }
+    }
+}",SALESFORCE,,,
+"what will be the out put 
+for the following code..?","function calculateRectangleArea(length, width) {
+    // Check if inputs are valid numbers
+    if (typeof length !== 'number' || typeof width !== 'number' || length <= 0 || width <= 0) {
+        return 'Invalid input. Please provide positive numbers for length and width.';
+    }
+
+    // Calculate the area of the rectangle
+    const area = length * width;
+    return area;
+}
+
+// Usage
+const length = 5;
+const width = 10;
+
+const area = calculateRectangleArea(length, width);
+console.log('Area of the rectangle:', area);
+",JAVASCRIPT,,,
+what..?,"/* CSS code */
+.container {
+  width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.text {
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+",CSS,,,
